@@ -4,6 +4,11 @@ name: Build, lint and run
 
 on:
   push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
