@@ -9,5 +9,5 @@ add_executable(test_main
     main.cpp
 )
 target_compile_options(test_main
-    PUBLIC -g3 -O0 -Wall -finput-charset=CP932 -fexec-charset=UTF-8
+    PUBLIC -g3 -O0 -Wall -finput-charset=CP932
 )
