@@ -1,3 +1,18 @@
+
+# dotfiles
+.settings/*
+.vscode/*
+.cproject
+.project
+.cache/*
+
+# dotfiles exceptions
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/c_cpp_properties.json
+!.vscode/extensions.json
+
 # Prerequisites
 *.d
 
@@ -30,3 +45,31 @@
 *.exe
 *.out
 *.app
+*.bin
+
+## Exceptions for pre-bundled binarys
+!**/TDCU_BOOT_SYSTEM.bin
+!**/Vodka_SPI_TDCU_BASE.bin
+!src/tool/card/boot01.bin
+
+# CMake
+**/cmake-build-debug
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/install_manifest.txt
+**/CMakeFiles/
+**/CTestTestfile.cmake
+**/*.cbp
+**/CMakeScripts
+**/compile_commands.json
+
+include/divisible/*
+
+## Local 
+.idea/*.xml
+build
+build/**/*
+include/*
+lib/*
+bin/*
+test/test_runner
