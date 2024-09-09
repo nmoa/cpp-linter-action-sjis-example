@@ -1,8 +1,6 @@
 #include <iostream>
 
-using namespace std;
-
 int main() {
-    std::cout << "í" << std::endl;
+    std::cout << "Hello World!" << std::endl; /* “K“–‚ÈƒRƒƒ“ƒg */  // íœ‰Â
     return 0;
 }
