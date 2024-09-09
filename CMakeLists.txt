@@ -7,6 +7,7 @@ set(CMAKE_CXX_USE_RESPONSE_FILE_FOR_INCLUDES OFF)
 
 add_executable(test_main
     main.cpp
+    print.cpp
 )
 target_compile_options(test_main
     PUBLIC -g3 -O0 -Wall -finput-charset=CP932 -fexec-charset=CP932
